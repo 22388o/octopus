@@ -1,12 +1,12 @@
-## Issue Addressed
+<!--  Thanks for sending a pull request! -->
 
-Which issue # does this PR address?
+#### What this PR does / why we need it:
 
-## Proposed Changes
+#### Which issue(s) does this PR fixes?:
+<!--
+(Optional) Automatically closes linked issue when PR is merged.
+Usage: `Fixes #<issue number>`, or `Fixes (paste link of issue)`.
+-->
+Fixes
 
-Please list or describe the changes introduced by this PR.
-
-## Additional Info
-
-Please provide any additional information. For example, future considerations
-or information useful for reviewers.
+#### Additional comments?:
