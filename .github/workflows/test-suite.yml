@@ -9,8 +9,8 @@ on:
       - 'pr/*'
   pull_request:
 env:
-  # Deny warnings in CI
-  RUSTFLAGS: "-D warnings"
+  # Deny warnings in CI, allow deprecated for now after rustc 1.59.0.
+  RUSTFLAGS: "-D warnings -A deprecated"
   # The Nightly version used for cargo-udeps, might need updating from time to time.
   PINNED_NIGHTLY: nightly-2021-12-01
 jobs:
